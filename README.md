@@ -1,2 +1,2 @@
-# FVTT-Detailed_Character_Info
-A custom made FoundryVTT module designed to allow characters to input additional, custom data for their characters for increased role play.
+# Detailed Character Info 
+A custom made FoundryVTT module designed to allow characters to input additional, custom data for their characters for increased role play. This module is not published, has no localization, and presently, is only to be used privately while questions and answers are rewritten to avoid copyright infringement. Please utilize the template as is, as the questions have been removed to avoid this copyright issue.
