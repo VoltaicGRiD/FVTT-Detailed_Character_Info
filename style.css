@@ -1,0 +1,81 @@
+.window-app .window-content section.module-dog-picture-container {
+  flex: 100;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 10px;
+}
+
+.window-app .window-content section.module-dog-picture-container .module-dog-placeholder {
+  font-size: 200px;
+}
+
+.window-app .window-content section.module-dog-picture-container img.module-dog-image {
+  object-fit: contain;
+  border: none;
+}
+
+.window-app .window-content section.module-dog-picture-container input[type=radio] {
+  margin-top: -1px;
+  vertical-align: middle;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 0px dotted black;
+}
+
+h3 {
+    padding-top: 15px;
+}
+
+.dci-nav {
+    background: linear-gradient(130deg, #0c2d4a 0%, #235683 40%, #235683 60%, #1d7dd1 100%);
+}
+
+.dci-nav .item {
+    height: 30px;
+    line-height: 32px;
+    color: #fff;
+    flex: 1;
+}
+
+    .dci-nav .item.active {
+        text-shadow: 0 0 10px var(--color-shadow-primary);
+    }
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+/*# sourceMappingURL=style.css.map */

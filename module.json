@@ -1,0 +1,24 @@
+{
+    "$schema": "https://json.schemastore.org/foundryvtt-manifest.json",
+    "id": "detailedcharinfo",
+    "title": "Character Information Module",
+    "description": "A module that allow players to go more indepth with thier character creation and details for the benefit of the game.",
+    "authors": [
+        {
+            "name": "Filix Filicity",
+            "email": "unusalsparrow@gmail.com"
+        },
+        {
+            "name": "Dustin Conlon",
+            "email": "dustinc01@gmail.com"
+        }
+    ],
+    "version": "1.0.0",
+    "compatibility": {
+        "minimum": "9",
+        "verified": "10"
+    },
+    "esmodules": [
+        "scripts/module.js"
+    ]
+}
