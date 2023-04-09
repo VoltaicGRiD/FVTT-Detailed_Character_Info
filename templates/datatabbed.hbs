@@ -32,8 +32,16 @@
 
     <nav class="tabs dci-nav" style="background: linear-gradient(130deg, #0c2d4a 0%, #235683 40%, #235683 60%, #1d7dd1 100%);" data-group="primary-tabs">
 
-        <a class="item" data-tab="tab1"><i class="fa-solid fa-steering-wheel"></i><br />SAMPLE QUESTIONS</a>
-        <a class="item" data-tab="tab2"><i class="fa-solid fa-dice-five"></i><br />NAME OF TAB 2</a>
+        <a class="item" data-tab="tab1"><i class="fa-solid fa-steering-wheel"></i><br />Drives</a>
+        <a class="item" data-tab="tab9"><i class="fa-solid fa-dice-five"></i><br />Commandments</a>
+        <a class="item" data-tab="tab3"><i class="fa-solid fa-person-chalkboard"></i><br />Five Lessons</a>
+        <a class="item" data-tab="tab2"><i class="fa-solid fa-honey-pot"></i><br />Honey Pot</a>
+        <a class="item" data-tab="tab4"><i class="fa-solid fa-house"></i><br />Home</a>
+        <a class="item" data-tab="tab5"><i class="fa-solid fa-book"></i><br />Last Will</a>
+        <a class="item" data-tab="tab6"><i class="fa-solid fa-user"></i><br />For Me</a>
+        <a class="item" data-tab="tab7"><i class="fa-solid fa-address-card"></i><br />Identity</a>
+        <a class="item" data-tab="tab8"><i class="fa-solid fa-spider"></i><br />Fears</a>
+        <a class="item" data-tab="tab10"><i class="fa-solid fa-user-secret"></i><br />Secrets</a>
 
     </nav>
 
@@ -43,7 +51,7 @@
 
         <div class="tab" data-tab="tab1" data-group="primary-tabs">
 
-            <h2>Sample Questions</h2>
+            <h2>What drives you forward?</h2>
 
             <h3 style="padding-top: 15px">Fighting for your life</h3>
             <p>You are at death's door. Your breath is shallow and ragged. Your joints cry and ache, Every physical part of you longs to lie down and rest. come what may.</p>
@@ -51,8 +59,441 @@
                 What image appears in your mind that inspires you to keep fighting?
             </p>
             <input name="flags.detailedcharinfo.fighting" style="width:89.5%;" value="{{flags.detailedcharinfo.fighting}}" id="FightingforYourLife1" type="text" maxlength="300" placeholder="eg. Chuk sees his freinds that are Chuk's family.'" />
+            
+            <br />
 
-			<h3>The Soul</h3>
+            <h3 style="padding-top: 15px">Without a Clue</h3>
+            <p>The trail is cold, Following every clue has led you back to the same place of uncertainty from which you started. You can feel icy dread creeping over you as you consider the possibility of re-examining everything that brought you to this point.</p>
+            <p>
+                What physical object do you instinctively reach for in this moment? What comfort does it bring?
+            </p>
+            <input name="flags.detailedcharinfo.noclue" value="{{flags.detailedcharinfo.noclue}}" id="NoClue" type="text" maxlength="300" placeholder="eg. Chuk reaches for his favorite shiny smooth rock. It helps Chuck focus." />
+
+            <br />
+
+            <h3 style="padding-top: 15px">Lost Your Way</h3>
+            <p>In the pursuit of righting wrongs. the line between good has become blurred, You have done things you could never imagined doing before, but you are not sure if that crossed a line</p>
+            <p>What words guide you toward your moral center? Who said them?</p>
+            <input name="flags.detailedcharinfo.lostyourway" value="{{flags.detailedcharinfo.lostyourway}}" id="LostYourWay" type="text" maxlength="300" placeholder="eg. Find new home, Chuk's mama said this when Chuk left for adventure'" />
+
+            <br />
+
+            <h3 style="padding-top: 15px">Facing the Unknown</h3>
+            <p>You are faced with a locked chest deep within a dungeon. On you journey down,you have faced many clever traps and seen valuable rewards.</p>
+            <p>
+                What treasure that could be hidden inside makes you want to open the chest?
+            </p>
+            <input name="flags.detailedcharinfo.unknown" value="{{flags.detailedcharinfo.unknown}}" id="unknown" type="text" maxlength="300" placeholder="Chuk would like a new knife for stabbing" />
+
+            <br />
+
+            <h3 style="padding-top: 15px">Social Unrest</h3>
+            <p>You your party are facing a serious problem and cannot agree on a solution. You have argued until you are blue in the face, and the temptation to go your own way is strong.</p>
+            <p>What moment from your past makes you try again to reach the other members?</p>
+            <input name="flags.detailedcharinfo.unrest" value="{{flags.detailedcharinfo.unrest}}" id="unrest" type="text" maxlength="300" placeholder="eg. Chuk used to argue with sister, and would loose, but sister shared with Chuk in the end. Sharing is a good thing to do." />
+
+        </div>
+
+        <div class="tab" data-tab="tab2" data-group="primary-tabs">
+
+            <h2>Honey Pot</h2>
+
+            <h3  style="padding-top: 15px">Opportunity</h3>
+            <p>What opportunity would be too important to walk away from?</p>
+            <input name="flags.detailedcharinfo.opportunity" value="{{flags.detailedcharinfo.opportunity}}" id="opportunity" type="text" maxlength="300" placeholder="eg. Chuk would not want to walk away from the option to have a new home,a home for Chuk" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Vice</h3>
+            <p>What vice do you jump at the chance to indulge?</p>
+            <input name="flags.detailedcharinfo.vice" value="{{flags.detailedcharinfo.vice}}" id="vice" type="text" maxlength="300" placeholder="eg. Chuk does indulge in fancy sweets" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Call to Action</h3>
+            <p>What call to action could you never bring yourself to ignore?</p>
+            <input name="flags.detailedcharinfo.action" value="{{flags.detailedcharinfo.action}}" id="action" type="text" maxlength="300" placeholder="eg. Chuk refuses to let other Chuks be left behind or hurts" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Fear</h3>
+            <p>What fear has the power to over whelm your reason?</p>
+            <input name="flags.detailedcharinfo.fear" value="{{flags.detailedcharinfo.fear}}" id="fear" type="text" maxlength="300" placeholder="eg. Chuk is scared of OwlBears. If Chuk sees one Chuk will abandon party to hide" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Who to See</h3>
+            <p>Who would you give almost anything to see?</p>
+            <input name="flags.detailedcharinfo.whotosee" value="{{flags.detailedcharinfo.whotosee}}" id="whotosee" type="text" maxlength="300" placeholder="eg. Chuk would give his left nut to see Sister again" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">To Destroy</h3>
+            <p>Whom or what have you sworn to destroy?</p>
+            <input name="flags.detailedcharinfo.destroy" value="{{flags.detailedcharinfo.destroy}}" id="destroy" type="text" maxlength="300" placeholder="eg. Chuk does not really have any sworn oaths or anything to anyone or thing" />
+
+        </div>
+
+        <div class="tab" data-tab="tab3" data-group="primary-tabs">
+
+            <h2>Five Lessons</h2>
+
+            <h3  style="padding-top: 15px">Growing Up</h3>
+            <p>Growing up you experienced something that you never wish to revisit It could be the desperation of extreme poverty, the isolation of social rejection, or even the guilt associated with having done something wrong.</p>
+            <p>
+                What have you learned should be avoided at all costs? What measures do you take these days to avoid this?
+            </p>
+            <input name="flags.detailedcharinfo.fivelessons1" value="{{flags.detailedcharinfo.fivelessons1}}" id="FiveLessons1" type="text" maxlength="300" placeholder="eg. Chuk has learned not to run out of arrows and Chuk buys excess arrows now." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Harming Others</h3>
+            <p>Before you truly understood your abilities, you unintentionally caused harm with them. </p>
+            <p>
+                What did you break or whom did you injure? How did you make up for your mistake? What did this situation teach you about managing your strength?
+            </p>
+            <input name="flags.detailedcharinfo.fivelessons2" value="{{flags.detailedcharinfo.fivelessons2}}" id="FiveLessons2" type="text" maxlength="300" placeholder="eg. Chuk brok arm. Chuk went to doctor. Chuk learned not shoot self in leg." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">As an Adolescent</h3>
+            <p>As an adolescent you stood up against something stronger than you to fight a perceived injustice.</p>
+            <p>
+                What did you lose in pursuit of your ideals? How did this event shape your response to wrongdoings as an adult?
+            </p>
+            <input name="flags.detailedcharinfo.fivelessons3" value="{{flags.detailedcharinfo.fivelessons3}}" id="FiveLessons3" type="text" maxlength="300" placeholder="eg. Chuk lost tent to bear. Chuk no longer trusts bears" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">As a Child</h3>
+            <p>When you were a child, someone close to you hid a truth from you. As an adult you realized that person's deception.</p>
+            <p>
+                How did the lie shape you? Did the truth hurt you? How do you approach deception as an adult?
+            </p>
+            <input name="flags.detailedcharinfo.fivelessons4" value="{{flags.detailedcharinfo.fivelessons4}}" id="FiveLessons4" type="text" maxlength="300" placeholder="eg. Chuk realized there are other creatures besides Chuk. Yes.Chuk double check that creature is not Chuk." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">During Your Training</h3>
+            <p>During your training you risked your life for something and were rewarded for it.</p>
+            <p>
+                How close did you come to death? What was the nature of your reward? What do you take into consideration when risking your life these days?
+            </p>
+            <input name="flags.detailedcharinfo.fivelessons5" value="{{flags.detailedcharinfo.fivelessons5}}" id="FiveLessons5" type="text" maxlength="300" placeholder="eg. Chuk cam very close but not dead. Chuk got tent back. Don't let bear take tent.'" />
+
+        </div>
+
+        <div class="tab" data-tab="tab4" data-group="primary-tabs">
+
+            <h2>A Touch of Home</h2>
+
+            <h3  style="padding-top: 15px">The Months of Cold</h3>
+            <p>During the months when the cold stings even indoors inns tend to skimp on the sheets.</p>
+            <p>What do you bring to keep yourself warm?</p>
+            <input name="flags.detailedcharinfo.warmth" value="{{flags.detailedcharinfo.warmth}}" id="warmth" type="text" maxlength="300" placeholder="eg. Chuk brought a blanket made by Sister and Mama " />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Hidden Gems</h3>
+            <p>Although there are hidden gems everywhere, most inns don't pride themselves on culinary delicacies.</p>
+            <p>What do you always keep with you to liven up a bland meal?</p>
+            <input name="flags.detailedcharinfo.flavor" value="{{flags.detailedcharinfo.flavor}}" id="flavor" type="text" maxlength="300" placeholder="eg. Chuk uses Chuk suace,secret recipie,Chuk will not reveal." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">What Catches Your Eye</h3>
+            <p>Wood, thatch, pitch, and mud, the materials most inns are built from are warmer than a tent but aren't exactly pretty.</p>
+            <p>What colorful thing cuts through the monotony of most inns?</p>
+            <input name="flags.detailedcharinfo.color" value="{{flags.detailedcharinfo.color}}" id="color" type="text" maxlength="300" placeholder="eg. Chuk, likes the clothes of travlers they are always diffrent" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">An Occasional Evening</h3>
+            <p>An evening of carousing often leads to singing and swapping stories.</p>
+            <p>What tale or song do you bring to an evening of revelry to warm your homesick heart?</p>
+            <input name="flags.detailedcharinfo.stories" value="{{flags.detailedcharinfo.stories}}" id="stories" type="text" maxlength="300" placeholder="eg. Chuk will recount the story of how Sister made some older Chuk's regret picking on Chuk" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Gambling</h3>
+            <p>Not every hero gambles his or her treasure, but almost all adventurers play games to pass the time.</p>
+            <p>What is your favorite thing to play?</p>
+            <input name="flags.detailedcharinfo.games" value="{{flags.detailedcharinfo.games}}" id="games" type="text" maxlength="300" placeholder="eg. Chuk enjoys go fish" />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Hygenics</h3>
+            <p>For some adventurers, taking a bath is the ultimate luxury.</p>
+            <p>When you're not scrubbing away the dirt of the road, how do you make the most of the experience?</p>
+            <input name="flags.detailedcharinfo.bath" value="{{flags.detailedcharinfo.bath}}" id="bath" type="text" maxlength="300" placeholder="eg. Chuk uses this time to play in the water with no messes" />
+
+        </div>
+
+        <div class="tab" data-tab="tab5" data-group="primary-tabs">
+
+            <h2>Last Will</h2>
+
+            <h3  style="padding-top: 15px">Your Talents</h3>
+            <p>How have you used your talents to store your final wishes and keep them safe from forces that might kill you?</p>
+            <input name="flags.detailedcharinfo.will1" value="{{flags.detailedcharinfo.will1}}" id="will1" type="text" maxlength="300" placeholder="eg. Magical paper, bank, magical seal, etc." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Wealth</h3>
+            <p>To whom or what do you bequeath your wealth (gold, jewels, and general treasure)?</p>
+            <input name="flags.detailedcharinfo.will2" value="{{flags.detailedcharinfo.will2}}" id="will2" type="text" maxlength="300" placeholder="eg. A party member close to you, a family member, a debter etc." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Trade Tools</h3>
+            <p>To whom or what do you leave your tools of the trade (weapoms, armor, and magical items)?</p>
+            <input name="flags.detailedcharinfo.will3" value="{{flags.detailedcharinfo.will3}}" id="will3" type="text" maxlength="300" placeholder="eg. A party member close to you, a family member, a debter etc." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Words of Wisdom</h3>
+            <p>Do you have anything that you need to say to each of your companions in a final message? Perhaps words you do not have the strength to say in life?</p>
+            <input name="flags.detailedcharinfo.will4" value="{{flags.detailedcharinfo.will4}}" id="will4" type="text" maxlength="300" placeholder="eg. A love confession, a secrect of betrayal, a sweet message for the party etc." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">Final Quests</h3>
+            <p>Is there a quest you must leave to your party? A task that you live for and believe it capable of taking on in your absence?</p>
+            <input name="flags.detailedcharinfo.will5" value="{{flags.detailedcharinfo.will5}}" id="will5" type="text" maxlength="300" placeholder="eg. Killing a king, enemy, or fufilling the quest given to you by someone special or yourself etc." />
+
+            <br />
+
+            <h3  style="padding-top: 15px">For the Wanderer</h3>
+            <p>What if you are found not by your companions but by a stranger? What message would you have for a fellow wanderer on the road? Would you ask her, him or them to perform a duty? </p>
+            <input name="flags.detailedcharinfo.will6" value="{{flags.detailedcharinfo.will6}}" id="will6" type="text" maxlength="300" placeholder="eg. Please find 'groupname' or 'party member name' or 'village name' and bring my things and will there" />
+
+        </div>
+
+        <div class="tab" data-tab="tab6" data-group="primary-tabs">
+
+            <h2>What can you do for me?</h2>
+
+            <h3 style="padding-top: 15px">I Want</h3>
+            <p>
+                This should be something small, perhaps frivolous. Some good examples are:
+                <ul>
+                    <li>An adjustment to my primary weapon</li>
+                    <li>To taste the meat of a beast I read about</li>
+                    <li>A song to win the heart of someone I admire</li>
+                    <li>A fine drink that I don't have to pay for</li>
+                </ul>
+            </p>
+            <p>I want...</p>
+            <input name="flags.detailedcharinfo.IWant1" value="{{flags.detailedcharinfo.IWant1}}" id="IWant1" type="text" maxlength="300" placeholder="eg. An augmentation for my armor" />
+
+            <p>The person most suited to help me would be..</p>
+            <input name="flags.detailedcharinfo.IWant2" value="{{flags.detailedcharinfo.IWant2}}" id="IWant2" type="text" maxlength="300" placeholder="eg. Skald" />
+
+            <p>because.....</p>
+            <input name="flags.detailedcharinfo.IWant3" value="{{flags.detailedcharinfo.IWant3}}" id="IWant3" type="text" maxlength="300" placeholder="eg. He is an Artficer" />
+
+            <p>I might have to...</p>
+            <select name="flags.detailedcharinfo.Iwant4" value="{{flags.detailedcharinfo.Iwant4}}" id="Iwant4">
+                {{#select flags.detailedcharinfo.Iwant4}}
+                <option value="Choose one...">Choose one...</option>
+                <option value="Trick this person with cunning and guile">Trick this person with cunning and guile </option>
+                <option value="Offer him, her, or them a share of the treasure I expect to get"> Offer him, her, or them a share of the treasure I expect to get</option>
+                <option value="Apologize for an offense caused">Apologize for an offense caused</option>
+                <option value="Teach the secret of my trade">Teach the secret of my trade</option>
+                <option value="Other...">Other...</option>
+                {{/select}}
+            </select>
+            <input name="flags.detailedcharinfo.Iwant4Other" value="{{flags.detailedcharinfo.Iwant4Other}}" id="Iwant4Other" type="text" maxlength="300" placeholder="Other..." />
+
+            <br />
+            <h3 style="padding-top: 15px">I Need</h3>
+            <p>
+                This should be related to a personal goal your character consciously pursues. Something related to your backstory or main character arc is perfect for this. It should be narrow in scope, a goal that could realistically be accomplished in a few sessions. Some good examples are:
+                <ul>
+                    <li>To identify the mysterious jewel given to me by my mentor</li>
+                    <li>To find stories of the killer 1 plan to bring to justice</li>
+                    <li>To research a better component for a complicated spell</li>
+                    <li>To create a convincing forgery for a noble title</li>
+                </ul>
+            </p>
+            <p>I need...</p>
+            <input name="flags.detailedcharinfo.INeed1" value="{{flags.detailedcharinfo.INeed1}}" id="INeed1" type="text" maxlength="300" placeholder="eg. To research a better component for a complicated spell" />
+
+            <p>The person most suited to help me would be..</p>
+            <input name="flags.detailedcharinfo.INeed2" value="{{flags.detailedcharinfo.INeed2}}" id="INeed2" type="text" maxlength="300" placeholder="eg. Oak" />
+
+            <p>because.....</p>
+            <input name="flags.detailedcharinfo.INeed3" value="{{flags.detailedcharinfo.INeed3}}" id="INeed3" type="text" maxlength="300" placeholder="eg. He is a fantistic Druid" />
+
+            <p>I might have to...</p>
+            <select name="flags.detailedcharinfo.INeed4" value="{{flags.detailedcharinfo.INeed4}}" id="INeed4">
+                {{#select flags.detailedcharinfo.INeed4}}
+                <option value="Choose one...">Choose one...</option>
+                <option value="Convince them this is a righteous cause">Convince them this is a righteous cause</option>
+                <option value="Pay them with a favor in kind">Pay them with a favor in kind</option>
+                <option value="Do something to earn their respect">Do something to earn their respect</option>
+                <option value="Reveal a secret about myself to them">Reveal a secret about myself to them</option>
+                {{/select}}
+            </select>
+
+            <br />
+            <h3 style="padding-top: 15px">I Long for</h3>
+            <p>
+                This should be a desire your character is not consciously aware of is a long-term character transformation that might play out significant period. It may be a goal that is completely unattainable but is interesting to chase after. Some good examples are:
+                <ul>
+                    <li>The parent I never had</li>
+                    <li>Peace with the person I used to be</li>
+                    <li>A person to share my life with</li>
+                    <li>A reason to keep fighting</li>
+                </ul>
+            </p>
+            <p>I long for...</p>
+            <input name="flags.detailedcharinfo.ILongfor1" value="{{flags.detailedcharinfo.ILongfor1}}" id="ILongfor1" type="text" maxlength="300" placeholder="eg. To be free" />
+
+            <p>The person most suited to help me would be..</p>
+            <input name="flags.detailedcharinfo.ILongfor2" value="{{flags.detailedcharinfo.ILongfor2}}" id="ILongfor2" type="text" maxlength="300" placeholder="eg. A greater demon of the nine hells" />
+
+            <p>because.....</p>
+            <input name="flags.detailedcharinfo.ILongfor3" value="{{flags.detailedcharinfo.ILongfor3}}" id="ILongfor3" type="text" maxlength="300" placeholder="eg. I've been restrained and trapped for too long'" />
+
+            <p>I might have to...</p>
+            <select name="flags.detailedcharinfo.ILongfor4" value="{{flags.detailedcharinfo.ILongfor4}}" id="ILongfor4">
+                {{#select flags.detailedcharinfo.ILongfor4}}
+                <option value="Choose one...">Choose one...</option>
+                <option value="Expose that which I Wish to conceal the most">Expose that which I Wish to conceal the most</option>
+                <option value="Swear to this an oath I would die to keep">Swear to this an oath I would die to keep</option>
+                <option value="Betray of my personal moral code">Betray of my personal moral code</option>
+                <option value="steal something that can never be returned"> steal something that can never be returned</option>
+                {{/select}}
+            </select>
+
+        </div>
+
+        <div class="tab" data-tab="tab7" data-group="primary-tabs">
+
+            <h2>What does it mean to be...</h2>
+
+            <p>I am a...</p>
+            <input name="" type="text" maxlength="300" placeholder="eg. teifling,dwarf,goblin etc." />
+
+            <p>Our Population is</p>
+            <select name="flags.detailedcharinfo.population" value="{{flags.detailedcharinfo.population}}" id="population">
+                {{#select flags.detailedcharinfo.population}}
+                <option value="none">Choose one...</option>
+                <option value="over">Overpopulated</option>
+                <option value="thive">Thriving</option>
+                <option value="unremark">Unremarkable</option>
+                <option value="under">Underrepresented</option>
+                <option value="dying">Dying out</option>
+                {{/select}}
+            </select>
+
+            <p>Compared to other common races, our stature is:</p>
+            <select name="flags.detailedcharinfo.stature" value="{{flags.detailedcharinfo.stature}}" id="stature">
+                {{#select flags.detailedcharinfo.stature}}
+                <option value="none">Choose one...</option>
+                <option value="large">Larger</option>
+                <option value="average">Average</option>
+                <option value="small">Smaller</option>
+                <option value="tiny">Tiny</option>
+                {{/select}}
+            </select>
+
+            <p>Generally strangers look at me and feel</p>
+            <select name="flags.detailedcharinfo.looks" value="{{flags.detailedcharinfo.looks}}" id="looks">
+                {{#select flags.detailedcharinfo.looks}}
+                <option value="none">Choose one...</option>
+                <option value="Fear">Fear</option>
+                <option value="Awe">Awe</option>
+                <option value="Amusement">Amusement</option>
+                <option value="Anger">Anger</option>
+                <option value="Pity">Pity</option>
+                <option value="Disgust">Disgust</option>
+                <option value="Safe">Safe</option>
+                {{/select}}
+            </select>
+
+            <p>Most places I travel</p>
+            <select name="flags.detailedcharinfo.travel" value="{{flags.detailedcharinfo.travel}}" id="travel">
+                {{#select flags.detailedcharinfo.travel}}
+                <option value="none">Choose one...</option>
+                <option value="worship">I am worshipped</option>
+                <option value="ostracized">I am ostracized</option>
+                <option value="notice">I am not noticed</option>
+                <option value="threat">I am a considered a threat</option>
+                {{/select}}
+            </select>
+
+            <hr />
+            <br />
+
+            <h2>Your identity</h2>
+
+            <p>Write a statement about your identity based on the prompts below.</p>
+
+            <p>My parents taught me...</p>
+            <input name="flags.detailedcharinfo.parents" value="{{flags.detailedcharinfo.parents}}" id="parents" type="text" maxlength="300" placeholder="eg. Share with others etc." />
+
+            <p>My church taught me...</p>
+            <input name="flags.detailedcharinfo.church" value="{{flags.detailedcharinfo.church}}" id="church" type="text" maxlength="300" placeholder="eg. My god will not leave me etc." />
+
+            <p>Society taught me...</p>
+            <input name="flags.detailedcharinfo.society" value="{{flags.detailedcharinfo.society}}" id="society" type="text" maxlength="300" placeholder="eg. I am not welcome, or I am welcome everywhere etc." />
+
+            <p>Which of these lessons is most important to your identity?</p>
+            <input name="flags.detailedcharinfo.important" value="{{flags.detailedcharinfo.important}}" id="important" type="text" maxlength="300" placeholder="eg. My god wil not leave me, because i need that faith to keep going." />
+
+            <p>When dealing with my race, I usually...</p>
+            <select name="flags.detailedcharinfo.interaction" id="interaction">
+                {{#select flags.detailedcharinfo.interaction}}
+                <option value="none">Choose one...</option>
+                <option value="nothought">Don't think about it</option>
+                <option value="ignore">Try to ignore it</option>
+                <option value="agony">Agonize over it</option>
+                <option value="emphasis">Place emphasis on it</option>
+                {{/select}}
+            </select>
+
+        </div>
+
+        <div class="tab" data-tab="tab8" data-group="primary-tabs">
+
+            <h2>The Body</h2>
+            <p>To construct a fear of the body,carefully consider what your character feels is important and what they would do to protect that.</p>
+            <p>One of the most obvious fears to confront an adventurer with is that of physical harm. After all, a huge portion of the job is risking danger. Pain and death are obvious and appropriate fear that most adventurers will face often.</p>
+            <select name="flags.detailedcharinfo.bodyfear" value="{{flags.detailedcharinfo.bodyfear}}" id="bodyfear">
+                {{#select flags.detailedcharinfo.bodyfear}}
+                <option value="Choose one...">Choose one...</option>
+                <option value="Pain">Pain</option>
+                <option value="Weakness">Weakness</option>
+                <option value="Injury">Injury</option>
+                <option value="Sickness">Sickness</option>
+                <option value="Death">Death</option>
+                {{/select}}
+            </select>
+
+            <hr />
+            <br />
+
+            <h2>The Mind</h2>
+            <p>To create a mind-based fear for your character, consider what you know and focus on the dangers you find most important. </p>
+            <p>The most powerful tool any adventurer has in their arsenal is thier mind, since it controls how they put thier skills to use. It can also work against them, constructing invisible enemies and threats out of harmless things.</p>
+            <select name="flags.detailedcharinfo.mindfear" value="{{flags.detailedcharinfo.mindfear}}" id="mindfear">
+                {{#select flags.detailedcharinfo.mindfear}}
+                <option value="Choose one...">Choose one...</option>
+                <option value="Anxiety">Anxiety</option>
+                <option value="Lack of preparation">Lack of preparation</option>
+                <option value="Feeling lost">Feeling lost</option>
+                <option value="Post-traumatic stress">Post-traumatic stress</option>
+                <option value="Lack of valuable information">Lack of valuable information</option>
+                <option value="Existential dread">Existential dread</option>
+                {{/select}}
+            </select>
+
+            <hr />
+            <br />
+
+            <h2>The Soul</h2>
             <p>To construct a spiritual fear, ask difficult questions about your character's beliefs and behavior.</p>
             <p>A story about good and evil on a conceptual level ecomes more grounded when you have a character embody those concepts. Evil is very easy to understand when it can swing a sword at you. Fearing personal corruption is a great way to add weight to actions and decisions your character must make.</p>
             <select name="flags.detailedcharinfo.soulfear" value="{{flags.detailedcharinfo.soulfear}}" id="soulfear">
@@ -67,11 +508,145 @@
                 {{/select}}
             </select>
 
+            <hr />
+            <br />
+
+            <h2>The Heart</h2>
+            <p>To construct a fear of the heart, focus on social interaction and what would happen if something went wrong.</p>
+            <p>Adding features like tusks, tails, and otherworldly fire to other characters or NPCs (non-player characters) makes differences more overt and easier to play with.</p>
+            <select name="flags.detailedcharinfo.heartfear" value="{{flags.detailedcharinfo.heartfear}}" id="heartfear">
+                {{#select flags.detailedcharinfo.heartfear}}
+                <option value="Choose one...">Choose one...</option>
+                <option value="Rejection">Rejection</option>
+                <option value="Intimacy">Intimacy</option>
+                <option value="Loneliness">Loneliness</option>
+                <option value="Personal awkwardness">Personal awkwardness</option>
+                <option value="Loss">Loss</option>
+                <option value="Social pressures to succeed">Social pressures to succeed</option>
+                {{/select}}
+            </select>
+
+            <hr />
+            <br />
+
+            <h2>The Beast</h2>
+            <p>To construct a fear of the beast think what your character does not know and find a way to make that dangerous.</p>
+            <p>The most obvious manifestation of the beast is monsters: the awful things that lurk in dungeons with sharp teeth and steely claws. Almost every creature found in a monster manual, or bestiary, is individually terrifying, and it is easy to empathize with a character who sees monsters that way.</p>
+            <select name="flags.detailedcharinfo.beastfear" value="{{flags.detailedcharinfo.beastfear}}" id="beastfear">
+                {{#select flags.detailedcharinfo.beastfear}}
+                <option value="Choose one...">Choose one...</option>
+                <option value="Monstrous appearance">Monstrous appearance</option>
+                <option value="Dangerous abilities">Dangerous abilities</option>
+                <option value="Forbidden knowledge">Forbidden knowledge</option>
+                <option value="Alien cultures and practices">Alien cultures and practices</option>
+                <option value="Unfamiliar devices">Unfamiliar devices</option>
+                <option value="Uncontained power">Uncontained power</option>
+                {{/select}}
+            </select>
+
         </div>
 
-        <div class="tab" data-tab="tab2" data-group="primary-tabs">
+        <div class="tab" data-tab="tab9" data-group="primary-tabs">
 
+            <h2>5 Commandments</h2>
+
+            <h3 style="padding-top: 15px">Always</h3>
+            <p>This is the most important thing a person has to do to live by your ideals. If someone ever experiences doubt, they should be able to look to this to center themselves.</p>
+            <p>
+                Examples: Always...
+                <ul>
+                    <li>Ease suffering where you find it.</li>
+                    <li>Search for truth where it could be hidden.</li>
+                    <li> Trust your instincts to guide you.</li>
+                </ul>
+            </p>
+            <input name="flags.detailedcharinfo.always" value="{{flags.detailedcharinfo.always}}" id="always" type="text" maxlength="300" placeholder="eg. I always trust my gut when i'm in a bad spot, it's gotten me out of them more than once" />
+
+            <br />
+            <h3 style="padding-top: 15px">Never</h3>
+            <p>The commandment is designed to prevent people from losing their way. It forbids an activity or way of thinking that you believe could lead them down a harmful path.</p>
+            <p>
+                Examples: Never...
+                <ul>
+                    <li>Trust a person whose only achievement is wealth.</li>
+                    <li>Trade freedom for safety. </li>
+                    <li>Kill for something you cannot hold.</li>
+                </ul>
+            </p>
+            <input name="flags.detailedcharinfo.never" value="{{flags.detailedcharinfo.never}}" id="never" type="text" maxlength="300" placeholder="eg. Wealth can corrupt your view on the world and people,, don't trust the money nor the people'" />
+
+            <br />
+            <h3 style="padding-top: 15px">Sacred</h3>
+            <p>There is a place, concept, or thing that you believe holds divine importance.It should be something your followers are encouraged to seek out and protect.</p>
+            <p>
+                Examples: Sacred...
+                <ul>
+                    <li>Freedom</li>
+                    <li>Forest </li>
+                    <li>Music</li>
+                </ul>
+            </p>
+            <input name="flags.detailedcharinfo.sacred" value="{{flags.detailedcharinfo.sacred}}" id="sacred" type="text" maxlength="300" placeholder="eg. I hold my hymns or home songs highly and they are to never die out" />
+
+            <br />
+            <h3 style="padding-top: 15px">Sin</h3>
+            <p>There is one crime you believe to be worse than all others. It is something your followers should work to remove from the world&#8212;something that would not be possible in a universe you controlled.</p>
+            <p>
+                Examples: Sin..
+                <ul>
+                    <li>Theft</li>
+                    <li>Dark magic</li>
+                    <li>Harming a child</li>
+                </ul>
+            </p>
+            <input name="flags.detailedcharinfo.sin" value="{{flags.detailedcharinfo.sin}}" id="sin" type="text" maxlength="300" placeholder="eg. Dark magic results in cursed, death and hatred this sin is unforgivable" />
+
+            <br />
+            <h3 style="padding-top: 15px">Self</h3>
+            <p>The final commandment is to define a follower's relationship with oneself If someone is to live by your example. how are they to treat themselves?</p>
+            <p>
+                Examples: Self...
+                <ul>
+                    <li>Sacrifice is the key to righteousness.</li>
+                    <li>Care for yourself so you may care for others.</li>
+                    <li>All for one. one for all.</li>
+                </ul>
+            </p>
+            <input name="flags.detailedcharinfo.self" value="{{flags.detailedcharinfo.self}}" id="self" type="text" maxlength="300" placeholder="eg. If you do not care for yourself, then how will you have the strength to care for others" />
+
+        </div>
+
+        <div class="tab" data-tab="tab10" data-group="primary-tabs">
+
+            <h2>Secrets</h2>
+
+            <textarea name="flags.detailedcharinfo.secret1" value="{{flags.detailedcharinfo.secret1}}" id="test" maxlength="500" rows="4">{{flags.detailedcharinfo.secret1}}</textarea>
+            <label><input type="checkbox" name="flags.detailedcharinfo.secret1res" {{#if flags.detailedcharinfo.secret1res}}checked{{/if}}> Resolved</label>
+
+            <br style="padding-top:5px; padding-bottom:5px;"/>
+
+            <textarea name="flags.detailedcharinfo.secret2" value="{{flags.detailedcharinfo.secret2}}" maxlength="500" rows="4" cols="80">{{flags.detailedcharinfo.secret2}}</textarea>
+            <label><input type="checkbox" name="flags.detailedcharinfo.secret2res" {{#if flags.detailedcharinfo.secret2res}}checked{{/if}}> Resolved</label>
+
+            <br style="padding-top:5px; padding-bottom:5px;"/>
+
+            <textarea name="flags.detailedcharinfo.secret3" value="{{flags.detailedcharinfo.secret3}}" maxlength="500" rows="4" cols="80">{{flags.detailedcharinfo.secret3}}</textarea>
+            <label><input type="checkbox" name="flags.detailedcharinfo.secret3res" {{#if flags.detailedcharinfo.secret3res}}checked{{/if}}> Resolved</label>
             
+            <br style="padding-top:5px; padding-bottom:5px;"/>
+
+            <textarea name="flags.detailedcharinfo.secret4" value="{{flags.detailedcharinfo.secret4}}" maxlength="500" rows="4" cols="80">{{flags.detailedcharinfo.secret4}}</textarea>
+            <label><input type="checkbox" name="flags.detailedcharinfo.secret4res" {{#if flags.detailedcharinfo.secret4res}}checked{{/if}}> Resolved</label>
+            
+            <br style="padding-top:5px; padding-bottom:5px;"/>
+
+            <textarea name="flags.detailedcharinfo.secret5" value="{{flags.detailedcharinfo.secret5}}" maxlength="500" rows="4" cols="80">{{flags.detailedcharinfo.secret5}}</textarea>
+            <label><input type="checkbox" name="flags.detailedcharinfo.secret5res" {{#if flags.detailedcharinfo.secret5res}}checked{{/if}}> Resolved</label>
+            
+            <br style="padding-top:5px; padding-bottom:5px;"/>
+
+            <textarea name="flags.detailedcharinfo.secret6" value="{{flags.detailedcharinfo.secret6}}" maxlength="500" rows="4" cols="80">{{flags.detailedcharinfo.secret6}}</textarea>
+            <label><input type="checkbox" name="flags.detailedcharinfo.secret6res" {{#if flags.detailedcharinfo.secret6res}}checked{{/if}}> Resolved</label>
 
         </div>
 
